@@ -1,0 +1,38 @@
+{
+  "name": "ofw-protocol",
+  "version": "0.1.0",
+  "description": "OFW-Protocol is an OpenFlow wire protocol library for NodeJS. It converts OpenFlow wire protocol messages to a standardized Javascript objects API.",
+  "keywords": [
+    "OpenFlow",
+    "JSON"
+  ],
+  "author": {
+    "name": "S.S.M Tolsma",
+    "email": "code@tolsma.net"
+  },
+  "maintainers": [{
+    "name": "S.S.M Tolsma",
+    "email": "code@tolsma.net"
+  }],
+  "licenses": [{
+    "type": "BSD"
+  }],
+  "repositories": [{
+    "type": "git",
+    "url": "https://github.com/Tolsma/ofw-protocol.git"
+  }],
+  "dependencies": {
+    "bn.js": "^3.0.1"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "test": "./test/index.js"
+  },
+  "engines": {
+    "node": ">=0.10.36"
+  }
+}
